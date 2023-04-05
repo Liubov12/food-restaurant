@@ -14,6 +14,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   transition: color 150ms var(--timing-function),
     background-color 150ms var(--timing-function);
+    min-height: 100vh;
 }
 
 body.light-theme {
@@ -224,4 +225,8 @@ body.dark-theme {
 
 .button__icon {
   margin-right: 8px;
+}
+
+.container {
+  padding: 0 20px;
 }

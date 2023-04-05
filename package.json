@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://liubov12.github.io/goit-js-hw-10-food-service1",
+  "homepage": "https://liubov12.github.io/food-restaurant",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service1/",
+    "build": "parcel build src/*.html --public-url /food-restaurant/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
